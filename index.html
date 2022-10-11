@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221011003413">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221011114440">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,6 +33,10 @@
 			<symbol id="arrow" viewBox="0 0 24 24" fill="none">
 				<path d="M23.0607 13.0607C23.6464 12.4749 23.6464 11.5251 23.0607 10.9393L13.5147 1.3934C12.9289 0.807611 11.9792 0.807611 11.3934 1.3934C10.8076 1.97919 10.8076 2.92893 11.3934 3.51472L19.8787 12L11.3934 20.4853C10.8076 21.0711 10.8076 22.0208 11.3934 22.6066C11.9792 23.1924 12.9289 23.1924 13.5147 22.6066L23.0607 13.0607ZM0 13.5H22V10.5H0V13.5Z" fill="white" />
 			</symbol>
+			<symbol id="close" viewBox="0 0 16 16" fill="none">
+				<path d="M15.6658 0.334181C15.2202 -0.111394 14.4976 -0.111394 14.0519 0.334181L8 6.38601L1.94815 0.334181C1.50257 -0.111394 0.779959 -0.111394 0.334183 0.334181C-0.111394 0.779955 -0.111394 1.50236 0.334183 1.94814L6.38604 7.99996L0.334183 14.0518C-0.111394 14.4974 -0.111394 15.22 0.334183 15.6657C0.77976 16.1113 1.50237 16.1113 1.94815 15.6657L8 9.61392L14.0519 15.6657C14.4974 16.1113 15.22 16.1115 15.6658 15.6657C16.1114 15.2202 16.1114 14.4976 15.6658 14.0518L9.61396 7.99996L15.6658 1.94814C16.1114 1.50256 16.1114 0.779955 15.6658 0.334181Z" fill="black" />
+			</symbol>
+
 		</svg>
 	</div>
 
@@ -49,7 +53,7 @@
 								<picture><source srcset="img/slider/02.webp" type="image/webp"><img src="img/slider/02.jpg" alt="slide"></picture>
 							</div>
 							<div class="main__slider-slide swiper-slide">
-								<picture><source srcset="img/slider/01.webp" type="image/webp"><img src="img/slider/01.jpg" alt="slide"></picture>
+								<picture><source srcset="img/slider/03.webp" type="image/webp"><img src="img/slider/03.jpg" alt="slide"></picture>
 							</div>
 						</div>
 						<div class="main__slider-pagination"></div>
@@ -59,12 +63,12 @@
 							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt=""></picture>
 						</a>
 						<div class="main__social">
-							<a href="" class="main__social-item">
+							<a href="https://www.facebook.com/watch/ArtPlayFestUSA/" class="main__social-item">
 								<svg aria-hidden="true">
 									<use xlink:href="#fb"></use>
 								</svg>
 							</a>
-							<a href="" class="main__social-item">
+							<a href="https://www.instagram.com/artplayfestusa/" class="main__social-item">
 								<svg aria-hidden="true">
 									<use xlink:href="#inst"></use>
 								</svg>
@@ -110,12 +114,12 @@
 										<use xlink:href="#telegram"></use>
 									</svg>
 								</a>
-								<a href="" class="info-main__social-item">
+								<a href="https://www.facebook.com/watch/ArtPlayFestUSA/" class="info-main__social-item">
 									<svg aria-hidden="true">
 										<use xlink:href="#facebook"></use>
 									</svg>
 								</a>
-								<a href="" class="info-main__social-item">
+								<a href="https://www.instagram.com/artplayfestusa/" class="info-main__social-item">
 									<svg aria-hidden="true">
 										<use xlink:href="#insta"></use>
 									</svg>
@@ -141,7 +145,11 @@
 	<div id="modal" aria-hidden="true" class="modal">
 		<div class="modal__wrapper">
 			<div class="modal__content">
-				<button data-close type="button" class="modal__close">X</button>
+				<button data-close type="button" class="modal__close">
+					<svg aria-hidden="true">
+						<use xlink:href="#close"></use>
+					</svg>
+				</button>
 
 				<form data-ajax action="files/sendmail/sendmail.php" class="form">
 					<h2 class="form__title">Submit applications</h2>
@@ -181,13 +189,12 @@
 							<use xlink:href="#arrow"></use>
 						</svg>
 					</button>
-					<p class="form__text">I have read and agree to the <a href="">Terms of Service</a> </p>
 				</form>
 
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20221011003413"></script>
+	<script src="js/app.min.js?_v=20221011114440"></script>
 </body>
 
 </html>
